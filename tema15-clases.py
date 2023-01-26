@@ -14,10 +14,21 @@ class operaBas:
         self.res=self.n1+self.n2
     def resta(self):
         self.res=self.n1-self.n2
+    def multiplicacion(self):
+        self.res=self.n1*self.n2
+    def division(self):
+        self.res=self.n1/self.n2    
 
 def main():
     obj=operaBas(3,2)
     obj.suma()
+    obj.resta()
+    print("La suma es: {}".format(obj.res))
 
 if __name__ == "__main__":
     main()
+
+
+
+
+    
